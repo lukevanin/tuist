@@ -278,7 +278,7 @@ final class ProjectDescriptorGenerator: ProjectDescriptorGenerating {
                     lastKnownFileType: "folder",
                     path: path.relative(to: project.sourceRootPath).pathString
                 )
-                
+
                 let packageReference = XCLocalSwiftPackageReference(
                     relativePath: path.pathString
                 )
